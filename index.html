@@ -1,10 +1,170 @@
 <!Doctype html>
+<html>
 <head>
-<title>Employee Analyst</title>
+<meta charset="UTF-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+<link rel="stylesheet" type="text/css" href="design.css">
+<link rel="stylesheet" type="text/css" href="https://fonts.googleapis.com/css?family=Righteous">
 </head>
-<body style="padding:0; margin:0; ">
-<div style="background-color:black; width:100%;">
+<body>
+	<div class="topbarred">
+<h1 id="titletext">SNL Tech</h1>
+<div class="topnav" id="myTopnav">
+<a class="navs"></a>
+<a class="navb"></a>
+<a class="navactive" href="#">Home</a>
+<a class="nav" href="contact.html">About</a>
+<a class="navc" href="hiring.php">Contact</a>
+ <a href="javascript:void(0);" class="icon" onclick="myFunction()">
+ 	 <i class="fa fa-bars"></i>
+	</div>
+	</div>
 
+<script>
+
+function myFunction() {
+  var x = document.getElementById("myTopnav");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+</script>
+</a>
+<style>
+    .parallax {
+      /* The image used */
+      background-image: url("https://i.ibb.co/zN3yNLc/Untitled.png");
+    
+      /* Set a specific height */
+      min-height: 500px; 
+    
+      /* Create the parallax scrolling effect */
+      background-attachment: fixed;
+      background-position: center;
+      background-repeat: no-repeat;
+      background-size: cover;
+    }
+    .parallaxtext{
+        margin: 0;
+        text-align:right;
+        padding-right: 20px;
+        font-size: 8vw;
+        color:tomato;
+        font-family:Righteous;
+    }
+    </style>
+<div class="parallax">
+<p class="parallaxtext">For<br>Your<br>Analytic<br>Needs</p>
+</div>    
+<center>
+<style type="text/css">
+	.fa {
+		border-radius: 25px;
+  padding: 5px;
+  font-size: 25px;
+  width: 25px;
+  text-align: center;
+  text-decoration: none;
+  margin: 5px 2px;
+}
+
+.fa-facebook:hover {
+  color: white;
+  background: #3B5998;
+}
+.fa-linkedin:hover {
+  color:white ;
+  background: #007bb5;
+}
+.fa-instagram:hover {
+  color: white;
+  background: #125688;
+}
+.fa-youtube:hover {
+  color: white;
+  background: #bb0000;
+}
+.fa-facebook {
+  background: white;
+  color: #3B5998;
+}
+.fa-linkedin {
+  background:white ;
+  color: #007bb5;
+}
+
+.fa-youtube {
+  background: white;
+  color: #bb0000;
+}
+
+.fa-instagram {
+  background: white;
+  color: #125688;
+}
+.dthead{
+    font-size: 2.2vw;
+    margin: 0;
+    color: black;
+    font-family: Righteous;
+}
+.ddtext{
+    margin: 0;
+    font-family: Righteous;
+    color: lightgray;
+    font-size: 2vw;
+}
+.dtlogo{
+    margin: 0;
+    font-family: Righteous;
+    color: white;
+    font-size: 2.5vw;
+}
+@media screen and (max-width: 600px) {
+  .parallaxtext {
+      font-size:16vw;
+  }
+  .dthead{
+    font-size: 3.2vw;
+}
+.ddtext{
+    font-size: 3vw;
+}
+.dtlogo{
+    font-size: 3.5vw;
+}
+}
+
+</style>
+<div id="footer">
+<dl style="float: left; width: 20%;">
+    <dt class="dtlogo">SNL Tech</dt>
+</dl>
+<dl style="float: left; width: 20%;">
+    <dt class="dthead">Company</dt>
+    <a href="#" style="text-decoration:none;"><dd class="ddtext">Home</dd></a>
+    <a href="#" style="text-decoration:none;"><dd class="ddtext">About</dd></a>
+    <a href="#" style="text-decoration:none;"><dd class="ddtext">Contact</dd></a>
+</dl>
+<dl style="float: left;width:20%;">
+<dt class="dthead">Employees</dt>
+<a href="#" style="text-decoration:none;"><dd class="ddtext">View Tasks</dd></a>
+<a href="#" style="text-decoration:none;"><dd class="ddtext">Find Employee</dd></a>
+<a href="#" style="text-decoration:none;"><dd class="ddtext">View Analytics</dd></a>
+</dl>
+<dl style="float: left;width: 20%;">
+    <dt class="dthead">Projects</dt>
+    <a href="#" style="text-decoration:none;"><dd class="ddtext">View</dd></a></dl>
+<dl style="float: left;width: 20%;">
+<dd><a href="#" class="fa fa-facebook"></a></dd>
+<dd><a href="#" class="fa fa-youtube"></a></dd>
+<dd><a href="#" class="fa fa-instagram"></a></dd>
+<dd><a href="#" class="fa fa-linkedin"></a></dd>
+</dl><br>
+<p style="font-family: Righteous;">© 2021 SNL Tech</p>
 </div>
 </body>
 </html>
