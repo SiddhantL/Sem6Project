@@ -6,7 +6,7 @@
     .topbarred{
       background-color: #DF0F1D; 
       overflow: hidden; 
-      padding: 0.5vw 2.6vw;
+      padding: 0.0vw 0.6vw;
     }
 #footer {
   background: #DF0F1D;
@@ -184,6 +184,7 @@ img.banner{
         text-decoration: none; 
         font-size: 2.5vw;
         font-family:righteous,righteous,serif;
+        border-radius: 3.5vw;
     }
         .navc{
       margin-right: 0.3vw; 
@@ -195,6 +196,7 @@ img.banner{
         font-size: 2.5vw;
         font-family:righteous,righteous,serif;
     margin-bottom: 20px;
+    border-radius: 3.5vw;
     }
     .nav:hover{
       background-color: #fff;
@@ -218,6 +220,7 @@ img.banner{
         text-decoration: none; 
         font-size: 2.5vw;
         font-family:righteous,righteous,serif;
+        border-radius: 3.5vw;
     }
     .navactive:hover{
       background-color: white;
@@ -288,6 +291,7 @@ margin-left: 12vw;
         font-size: 2.5vw;
         font-family:righteous,righteous,serif;
         visibility: hidden;
+        border-radius: 3.5vw;
 }
     .navb{
       margin-right: 0.3vw; 
